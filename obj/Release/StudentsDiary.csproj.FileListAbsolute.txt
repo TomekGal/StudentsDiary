@@ -1,0 +1,11 @@
+E:\C#Nauka\StudentsDiary\StudentsDiary\bin\Release\StudentsDiary.exe.config
+E:\C#Nauka\StudentsDiary\StudentsDiary\bin\Release\StudentsDiary.exe
+E:\C#Nauka\StudentsDiary\StudentsDiary\bin\Release\StudentsDiary.pdb
+E:\C#Nauka\StudentsDiary\StudentsDiary\obj\Release\StudentsDiary.csprojAssemblyReference.cache
+E:\C#Nauka\StudentsDiary\StudentsDiary\obj\Release\StudentsDiary.AddEditStudents.resources
+E:\C#Nauka\StudentsDiary\StudentsDiary\obj\Release\StudentsDiary.Main.resources
+E:\C#Nauka\StudentsDiary\StudentsDiary\obj\Release\StudentsDiary.Properties.Resources.resources
+E:\C#Nauka\StudentsDiary\StudentsDiary\obj\Release\StudentsDiary.csproj.GenerateResource.cache
+E:\C#Nauka\StudentsDiary\StudentsDiary\obj\Release\StudentsDiary.csproj.CoreCompileInputs.cache
+E:\C#Nauka\StudentsDiary\StudentsDiary\obj\Release\StudentsDiary.exe
+E:\C#Nauka\StudentsDiary\StudentsDiary\obj\Release\StudentsDiary.pdb
