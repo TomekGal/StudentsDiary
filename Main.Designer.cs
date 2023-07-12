@@ -93,6 +93,7 @@
             this.dgvDiary.Location = new System.Drawing.Point(12, 65);
             this.dgvDiary.Name = "dgvDiary";
             this.dgvDiary.RowHeadersVisible = false;
+            this.dgvDiary.RowHeadersWidth = 51;
             this.dgvDiary.RowTemplate.Height = 24;
             this.dgvDiary.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvDiary.Size = new System.Drawing.Size(974, 392);
@@ -101,15 +102,17 @@
             // comFilter
             // 
             this.comFilter.AutoCompleteCustomSource.AddRange(new string[] {
-            "All",
+            "Wszystko",
             "Class1",
             "Class2",
             "Class3",
             "Class4",
             "Class5"});
+            this.comFilter.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comFilter.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.comFilter.FormattingEnabled = true;
             this.comFilter.Items.AddRange(new object[] {
-            "All",
+            "Wszystko",
             "Class1",
             "Class2",
             "Class3",
@@ -119,7 +122,8 @@
             this.comFilter.Name = "comFilter";
             this.comFilter.Size = new System.Drawing.Size(121, 24);
             this.comFilter.TabIndex = 5;
-            this.comFilter.SelectedIndexChanged += new System.EventHandler(this.comFilter_SelectedIndexChanged);
+            this.comFilter.SelectedItem = "Wszystko";
+            //this.comFilter.SelectedIndexChanged += new System.EventHandler(this.comFilter_SelectedIndexChanged);
             // 
             // label1
             // 

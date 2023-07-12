@@ -18,6 +18,7 @@ namespace StudentsDiary
         }
         public void SerializeToFile(T students)
         {
+
             var serializer = new XmlSerializer(typeof(T));
             using (var streamWriter = new StreamWriter(_filePath))
 

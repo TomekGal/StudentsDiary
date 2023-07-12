@@ -134,7 +134,7 @@ namespace StudentsDiary
         {
             var students = _fileHelper.DeserializerFromFile();
 
-            if (comFilter.Text != "All")
+            if (comFilter.Text != "Wszystko")
             {
 
                 students.RemoveAll(x => x.IdClass != comFilter.Text);
@@ -155,18 +155,18 @@ namespace StudentsDiary
             Settings.Default.Save();
         }
 
-        private void comFilter_SelectedIndexChanged(object sender, EventArgs e)
-        {
+        //private void comFilter_SelectedIndexChanged(object sender, EventArgs e)
+        //{
             
-            //var students = _fileHelper.DeserializerFromFile();
+        //    //var students = _fileHelper.DeserializerFromFile();
           
-            //if (comFilter.Text != "All")
-            //{
+        //    //if (comFilter.Text != "All")
+        //    //{
                
-            //    students.RemoveAll(x => x.IdClass != comFilter.Text);
-            //    dgvDiary.DataSource = students;
-            //}
-            //dgvDiary.DataSource = students;
-        }
+        //    //    students.RemoveAll(x => x.IdClass != comFilter.Text);
+        //    //    dgvDiary.DataSource = students;
+        //    //}
+        //    //dgvDiary.DataSource = students;
+        //}
     }
 }
